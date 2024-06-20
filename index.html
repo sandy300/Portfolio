@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Reddy</title>
+    <link rel="shortcut icon" href="./images/my_photo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Sandeep</a>
+        <nav class="navbar">
+            <a href="#home">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Poluri Sandeep Reddy</h1>
+            <h3>Software Developer</h3>
+            <p>Pursuing my BTech At KL University Department of Computer Science and Engineering.Certified in Google Cloud Associate Engineer and Microsoft Az-900.</p>
+            <div class="bnt-box">
+                <a href="./images/myresume.pdf" download>My Resume</a>
+                <a href="#contact">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="images/image.jpg" alt="Profile Image">
+        </div>
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/sandeep2603/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/sandy300" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="mailto:sandeepreddypoluri@gmail.com"><i class='bx bxl-gmail' ></i></a>
+            <a href="https://www.instagram.com/sandeepreddy2603/"><i class='bx bxl-instagram' ></i></a>
+        </div>
+    </section>
+    <section class="skills">
+        <h2 id="skills">Skills</h2>
+        <div class="skills-container">
+            <article class="skill-box">
+                <div class="skill__title">
+                    <h3>Programming</h3>
+                </div>
+                <div class="skill__small-box">
+                    <p>C</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                </div>
+            </article>
+            <article class="skill-box">
+                <div class="skill__title">
+                    <h3>Frontend</h3>
+                </div>
+                <div class="skill__small-box">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                </div>
+            </article>
+            <article class="skill-box">
+                <div class="skill__title">
+                    <h3>Databases</h3>
+                </div>
+                <div class="skill__small-box">
+                    <p>MYSQL</p>
+                    <p>MongoDB</p>
+                </div>
+            </article>
+            <article class="skill-box">
+                <div class="skill__title">
+                    <h3>Cloud Technologies</h3>
+                </div>
+                <div class="skill__small-box">
+                    <p>Azure</p>
+                    <p>Google Cloud</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <div class="c-container">
+            <div id="google" class="certificate">
+                <img src="./images/gcp.png" alt="">
+               <a href="https://www.credly.com/badges/98550092-32be-4b10-92b5-131dda76676b/public_url" target="_blank"><h3>View</h3></a> 
+            </div>
+            <div id="az" class="certificate">
+                <img src="./images/az900.png" alt="">
+                <a href="https://www.credly.com/badges/23245723-cc53-416f-bc32-fbbf11124352/public_url" target="_blank"><h3>view</h3></a>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                <p>KL University</p>
+                <p>2020 - Present</p>
+            </div>
+            <div class="education-item">
+                <h3>Intermediate Education (MPC)</h3>
+                <p>Sri Chaitanya Junior College</p>
+                <p>2018 - 2020</p>
+            </div>
+            <div class="education-item">
+                <h3>Secondary Education</h3>
+                <p>Vikas The Concept School</p>
+                <p>2017 - 2018</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Let&apos;s talk</h2>
+        <div class="contact-form-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
